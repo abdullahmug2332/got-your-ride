@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.p{
+    color: #919191 ;
+
+}
+p{
+    font-family: "Nunito", sans-serif;
+}
+.color{
+    color: #f0582a;
+}
+.input{
+    @apply px-[10px] border w-[100%] py-[10px] my-[5px] rounded-[5px]
+}
+.btn{
+    @apply bg-[#f0582a] text-white w-full py-[10px] rounded-[5px] duration-500 hover:scale-[1.02]
+}
+.ld{
+    border-right: 1px solid rgb(199, 199, 199);
+}
