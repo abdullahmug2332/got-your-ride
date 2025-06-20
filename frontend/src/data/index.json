@@ -1,0 +1,375 @@
+[
+    {
+      "id": 1,
+      "bookingData": {
+        "title": "Mount Fuji",
+        "subtitle": "Japan's Leading GetYourRide Service...Ready In Your One Click",
+        "location": "Mount Fuji",
+        "reviews": "(Reviews)",
+        "images": [
+          { "src": "assets/87.png", "classes": "col-span-1 md:col-span-2 row-span-1 md:row-span-2 w-full h-full" },
+          { "src": "assets/50.png", "classes": "col-span-1 md:col-span-2 row-span-1 w-full h-full" },
+          { "src": "assets/shade-ysUOK8yPnt0-unsplash.png", "classes": "col-span-1 w-full h-full" },
+          { "src": "assets/rui-hao-lim-VajtrJauWDQ-unsplash.png", "classes": "col-span-1 w-full h-full" }
+        ],
+        "details": [
+          { "icon": "assets/Group_427_1.png", "label": "Duration", "value": "10 Hour" },
+          { "icon": "assets/Group_427_2.png", "label": "People", "value": "1-6" },
+          { "icon": "assets/Group_427_3.png", "label": "Language", "value": "English" },
+          { "icon": "assets/Group_427_4.png", "label": "Type", "value": "Adventure" }
+        ],
+        "price": {
+          "fromLabel": "From",
+          "primary": "$350",
+          "secondary": "$500",
+          "secondaryIcon": "assets/orange-line.png"
+        }
+      },
+      "tripData": {
+        "description": {
+          "title": "Description",
+          "text": "Embark on an unforgettable journey with Getyourride's private Mount Fuji tour, accompanied by an expert English-speaking driver. Contact Us at +96896918676"
+        },
+        "tripHighlights": {
+          "title": "Trip Highlights",
+          "subTitle": "Places covered"
+        },
+        "includeExclude": {
+          "title": "Include/Exclude",
+          "includedItems": [
+            "Meet and greet",
+            "English-speaking driver",
+            "Air-conditioned vehicle",
+            "Kitaguchi-hongu Fuji",
+            "with WiFi when available"
+          ],
+          "excludedItems": [
+            "Mr. Fuji entry ticket",
+            "Food and drinks",
+            "Tour guide",
+            "Ropeway or motorboat ticket",
+            "Saiko iyashi no nemb village entry ticket"
+          ]
+        },
+        "booking": {
+          "title": "Book Your Trip",
+          "dropdownPlaceholder": "Select a date",
+          "people": {
+            "label": "People:",
+            "category": "Adult",
+            "subtext": "(14+ Years)",
+            "selectPlaceholder": "When (Date)",
+            "options": [
+              { "value": "option1", "label": "0" },
+              { "value": "option2", "label": "1" },
+              { "value": "option3", "label": "2" }
+            ]
+          },
+          "tripInfo": [
+            { "label": "Location", "value": "Mount Fuji" },
+            { "label": "Service", "value": "car + driver" },
+            { "label": "Duration", "value": "10 Hours" },
+            { "label": "People", "value": "1-6" }
+          ],
+          "buttonText": "Add to cart"
+        }
+      },
+      "itineraryData": {
+        "leftColumn": {
+          "title": "Itinerary",
+          "headerItems": [
+            { "icon": "assets/Group_4.png", "text": "Mount Fuji", "textClass": "text-[#f1582b] pl-4 font-bold" },
+            { "icon": "assets/Group_3.png", "text": "starting location", "textClass": "pl-4 font-semibold" }
+          ],
+          "stopsBackground": "assets/image_2.png",
+          "stops": [
+            { "icon": "assets/Group_1.png", "title": "Mount Fuji", "duration": "(75 minutes)" },
+            { "icon": "assets/Group_2.png", "title": "Mount Fuji", "duration": "(75 minutes)" },
+            { "icon": "assets/Group_1.png", "title": "Mount Fuji", "duration": "(75 minutes)" },
+            { "icon": "assets/Group_1.png", "title": "Mount Fuji", "duration": "(75 minutes)" }
+          ]
+        },
+        "rightImage": "assets/image_1.png"
+      }
+    },
+    {
+      "id": 2,
+      "bookingData": {
+        "title": "Mount Fuji",
+        "subtitle": "Japan's Leading GetYourRide Service...Ready In Your One Click",
+        "location": "Mount Fuji",
+        "reviews": "(Reviews)",
+        "images": [
+          { "src": "assets/87.png", "classes": "col-span-1 md:col-span-2 row-span-1 md:row-span-2 w-full h-full" },
+          { "src": "assets/50.png", "classes": "col-span-1 md:col-span-2 row-span-1 w-full h-full" },
+          { "src": "assets/shade-ysUOK8yPnt0-unsplash.png", "classes": "col-span-1 w-full h-full" },
+          { "src": "assets/rui-hao-lim-VajtrJauWDQ-unsplash.png", "classes": "col-span-1 w-full h-full" }
+        ],
+        "details": [
+          { "icon": "assets/Group_427_1.png", "label": "Duration", "value": "10 Hour" },
+          { "icon": "assets/Group_427_2.png", "label": "People", "value": "1-6" },
+          { "icon": "assets/Group_427_3.png", "label": "Language", "value": "English" },
+          { "icon": "assets/Group_427_4.png", "label": "Type", "value": "Adventure" }
+        ],
+        "price": {
+          "fromLabel": "From",
+          "primary": "$350",
+          "secondary": "$500",
+          "secondaryIcon": "assets/orange-line.png"
+        }
+      },
+      "tripData": {
+        "description": {
+          "title": "Description",
+          "text": "Embark on an unforgettable journey with Getyourride's private Mount Fuji tour, accompanied by an expert English-speaking driver. Contact Us at +96896918676"
+        },
+        "tripHighlights": {
+          "title": "Trip Highlights",
+          "subTitle": "Places covered"
+        },
+        "includeExclude": {
+          "title": "Include/Exclude",
+          "includedItems": [
+            "Meet and greet",
+            "English-speaking driver",
+            "Air-conditioned vehicle",
+            "Kitaguchi-hongu Fuji",
+            "with WiFi when available"
+          ],
+          "excludedItems": [
+            "Mr. Fuji entry ticket",
+            "Food and drinks",
+            "Tour guide",
+            "Ropeway or motorboat ticket",
+            "Saiko iyashi no nemb village entry ticket"
+          ]
+        },
+        "booking": {
+          "title": "Book Your Trip",
+          "dropdownPlaceholder": "Select a date",
+          "people": {
+            "label": "People:",
+            "category": "Adult",
+            "subtext": "(14+ Years)",
+            "selectPlaceholder": "When (Date)",
+            "options": [
+              { "value": "option1", "label": "0" },
+              { "value": "option2", "label": "1" },
+              { "value": "option3", "label": "2" }
+            ]
+          },
+          "tripInfo": [
+            { "label": "Location", "value": "Mount Fuji" },
+            { "label": "Service", "value": "car + driver" },
+            { "label": "Duration", "value": "10 Hours" },
+            { "label": "People", "value": "1-6" }
+          ],
+          "buttonText": "Add to cart"
+        }
+      },
+      "itineraryData": {
+        "leftColumn": {
+          "title": "Itinerary",
+          "headerItems": [
+            { "icon": "assets/Group_4.png", "text": "Mount Fuji", "textClass": "text-[#f1582b] pl-4 font-bold" },
+            { "icon": "assets/Group_3.png", "text": "starting location", "textClass": "pl-4 font-semibold" }
+          ],
+          "stopsBackground": "assets/image_2.png",
+          "stops": [
+            { "icon": "assets/Group_1.png", "title": "Mount Fuji", "duration": "(75 minutes)" },
+            { "icon": "assets/Group_2.png", "title": "Mount Fuji", "duration": "(75 minutes)" },
+            { "icon": "assets/Group_1.png", "title": "Mount Fuji", "duration": "(75 minutes)" },
+            { "icon": "assets/Group_1.png", "title": "Mount Fuji", "duration": "(75 minutes)" }
+          ]
+        },
+        "rightImage": "assets/image_1.png"
+      }
+    },
+    {
+      "id": 3,
+      "bookingData": {
+        "title": "Mount Fuji",
+        "subtitle": "Japan's Leading GetYourRide Service...Ready In Your One Click",
+        "location": "Mount Fuji",
+        "reviews": "(Reviews)",
+        "images": [
+          { "src": "assets/87.png", "classes": "col-span-1 md:col-span-2 row-span-1 md:row-span-2 w-full h-full" },
+          { "src": "assets/50.png", "classes": "col-span-1 md:col-span-2 row-span-1 w-full h-full" },
+          { "src": "assets/shade-ysUOK8yPnt0-unsplash.png", "classes": "col-span-1 w-full h-full" },
+          { "src": "assets/rui-hao-lim-VajtrJauWDQ-unsplash.png", "classes": "col-span-1 w-full h-full" }
+        ],
+        "details": [
+          { "icon": "assets/Group_427_1.png", "label": "Duration", "value": "10 Hour" },
+          { "icon": "assets/Group_427_2.png", "label": "People", "value": "1-6" },
+          { "icon": "assets/Group_427_3.png", "label": "Language", "value": "English" },
+          { "icon": "assets/Group_427_4.png", "label": "Type", "value": "Adventure" }
+        ],
+        "price": {
+          "fromLabel": "From",
+          "primary": "$350",
+          "secondary": "$500",
+          "secondaryIcon": "assets/orange-line.png"
+        }
+      },
+      "tripData": {
+        "description": {
+          "title": "Description",
+          "text": "Embark on an unforgettable journey with Getyourride's private Mount Fuji tour, accompanied by an expert English-speaking driver. Contact Us at +96896918676"
+        },
+        "tripHighlights": {
+          "title": "Trip Highlights",
+          "subTitle": "Places covered"
+        },
+        "includeExclude": {
+          "title": "Include/Exclude",
+          "includedItems": [
+            "Meet and greet",
+            "English-speaking driver",
+            "Air-conditioned vehicle",
+            "Kitaguchi-hongu Fuji",
+            "with WiFi when available"
+          ],
+          "excludedItems": [
+            "Mr. Fuji entry ticket",
+            "Food and drinks",
+            "Tour guide",
+            "Ropeway or motorboat ticket",
+            "Saiko iyashi no nemb village entry ticket"
+          ]
+        },
+        "booking": {
+          "title": "Book Your Trip",
+          "dropdownPlaceholder": "Select a date",
+          "people": {
+            "label": "People:",
+            "category": "Adult",
+            "subtext": "(14+ Years)",
+            "selectPlaceholder": "When (Date)",
+            "options": [
+              { "value": "option1", "label": "0" },
+              { "value": "option2", "label": "1" },
+              { "value": "option3", "label": "2" }
+            ]
+          },
+          "tripInfo": [
+            { "label": "Location", "value": "Mount Fuji" },
+            { "label": "Service", "value": "car + driver" },
+            { "label": "Duration", "value": "10 Hours" },
+            { "label": "People", "value": "1-6" }
+          ],
+          "buttonText": "Add to cart"
+        }
+      },
+      "itineraryData": {
+        "leftColumn": {
+          "title": "Itinerary",
+          "headerItems": [
+            { "icon": "assets/Group_4.png", "text": "Mount Fuji", "textClass": "text-[#f1582b] pl-4 font-bold" },
+            { "icon": "assets/Group_3.png", "text": "starting location", "textClass": "pl-4 font-semibold" }
+          ],
+          "stopsBackground": "assets/image_2.png",
+          "stops": [
+            { "icon": "assets/Group_1.png", "title": "Mount Fuji", "duration": "(75 minutes)" },
+            { "icon": "assets/Group_2.png", "title": "Mount Fuji", "duration": "(75 minutes)" },
+            { "icon": "assets/Group_1.png", "title": "Mount Fuji", "duration": "(75 minutes)" },
+            { "icon": "assets/Group_1.png", "title": "Mount Fuji", "duration": "(75 minutes)" }
+          ]
+        },
+        "rightImage": "assets/image_1.png"
+      }
+    },
+    {
+      "id": 4,
+      "bookingData": {
+        "title": "Mount Fuji",
+        "subtitle": "Japan's Leading GetYourRide Service...Ready In Your One Click",
+        "location": "Mount Fuji",
+        "reviews": "(Reviews)",
+        "images": [
+          { "src": "assets/87.png", "classes": "col-span-1 md:col-span-2 row-span-1 md:row-span-2 w-full h-full" },
+          { "src": "assets/50.png", "classes": "col-span-1 md:col-span-2 row-span-1 w-full h-full" },
+          { "src": "assets/shade-ysUOK8yPnt0-unsplash.png", "classes": "col-span-1 w-full h-full" },
+          { "src": "assets/rui-hao-lim-VajtrJauWDQ-unsplash.png", "classes": "col-span-1 w-full h-full" }
+        ],
+        "details": [
+          { "icon": "assets/Group_427_1.png", "label": "Duration", "value": "10 Hour" },
+          { "icon": "assets/Group_427_2.png", "label": "People", "value": "1-6" },
+          { "icon": "assets/Group_427_3.png", "label": "Language", "value": "English" },
+          { "icon": "assets/Group_427_4.png", "label": "Type", "value": "Adventure" }
+        ],
+        "price": {
+          "fromLabel": "From",
+          "primary": "$350",
+          "secondary": "$500",
+          "secondaryIcon": "assets/orange-line.png"
+        }
+      },
+      "tripData": {
+        "description": {
+          "title": "Description",
+          "text": "Embark on an unforgettable journey with Getyourride's private Mount Fuji tour, accompanied by an expert English-speaking driver. Contact Us at +96896918676"
+        },
+        "tripHighlights": {
+          "title": "Trip Highlights",
+          "subTitle": "Places covered"
+        },
+        "includeExclude": {
+          "title": "Include/Exclude",
+          "includedItems": [
+            "Meet and greet",
+            "English-speaking driver",
+            "Air-conditioned vehicle",
+            "Kitaguchi-hongu Fuji",
+            "with WiFi when available"
+          ],
+          "excludedItems": [
+            "Mr. Fuji entry ticket",
+            "Food and drinks",
+            "Tour guide",
+            "Ropeway or motorboat ticket",
+            "Saiko iyashi no nemb village entry ticket"
+          ]
+        },
+        "booking": {
+          "title": "Book Your Trip",
+          "dropdownPlaceholder": "Select a date",
+          "people": {
+            "label": "People:",
+            "category": "Adult",
+            "subtext": "(14+ Years)",
+            "selectPlaceholder": "When (Date)",
+            "options": [
+              { "value": "option1", "label": "0" },
+              { "value": "option2", "label": "1" },
+              { "value": "option3", "label": "2" }
+            ]
+          },
+          "tripInfo": [
+            { "label": "Location", "value": "Mount Fuji" },
+            { "label": "Service", "value": "car + driver" },
+            { "label": "Duration", "value": "10 Hours" },
+            { "label": "People", "value": "1-6" }
+          ],
+          "buttonText": "Add to cart"
+        }
+      },
+      "itineraryData": {
+        "leftColumn": {
+          "title": "Itinerary",
+          "headerItems": [
+            { "icon": "assets/Group_4.png", "text": "Mount Fuji", "textClass": "text-[#f1582b] pl-4 font-bold" },
+            { "icon": "assets/Group_3.png", "text": "starting location", "textClass": "pl-4 font-semibold" }
+          ],
+          "stopsBackground": "assets/image_2.png",
+          "stops": [
+            { "icon": "assets/Group_1.png", "title": "Mount Fuji", "duration": "(75 minutes)" },
+            { "icon": "assets/Group_2.png", "title": "Mount Fuji", "duration": "(75 minutes)" },
+            { "icon": "assets/Group_1.png", "title": "Mount Fuji", "duration": "(75 minutes)" },
+            { "icon": "assets/Group_1.png", "title": "Mount Fuji", "duration": "(75 minutes)" }
+          ]
+        },
+        "rightImage": "assets/image_1.png"
+      }
+    }
+]
+  

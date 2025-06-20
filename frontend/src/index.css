@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+.zee-index {
+  z-index: 1000;
+  position: fixed;
+}
+
+.ze-index {
+  z-index: 50;
+}
+@font-face {
+  font-family: 'Matter Regular'; /* You can name it whatever you like */
+  src: url('./assets/fonts/Matter-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@layer base {
+  /* Apply the custom font to the html and body so all children inherit it */
+  html, body {
+    font-family: "Montserrat", sans-serif;
+  }
+}  
+.montserrat-title {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700; /* Bold weight */
+  font-style: normal;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.ron {
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+:root {
+  --custom-property: 0 40px 80px -20px rgba(0, 0, 0, 0.8); /* Larger shadow than shadow-2xl */
+}
+@layer components {
+  .input {
+    @apply w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:ring-2 focus:ring-blue-500 focus:outline-none;
+  }
+}
+.react-datepicker-wrapper{
+  width: 100% !important;
+}
+@keyframes clean-ripple {
+  0%   { transform: scale(1);   opacity: 0.85; }
+  80%  { transform: scale(2.6); opacity: 0;    }
+  100% { transform: scale(2.6); opacity: 0;    }
+}
+
+/* one utility class for any “ripple area” */
+.ripple-area > .ripple-ring {
+  position: absolute;
+  inset: 0;                       /* keeps ring centred */
+  border: 5px solid #F1582B;      /* thick & visible */
+  border-radius: 9999px;
+  pointer-events: none;           /* button stays clickable */
+  animation: clean-ripple 2.4s cubic-bezier(.4,0,.2,1) infinite;
+}
+.ripple-area > .ripple-ring:nth-child(2) { animation-delay: 0.8s; }
+.ripple-area > .ripple-ring:nth-child(3) { animation-delay: 1.6s; }
+/* Enable smooth scrolling for the whole document */
+html {
+  scroll-behavior: smooth;
+}

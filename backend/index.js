@@ -10,7 +10,12 @@ require('dotenv').config();
 const authRoutes = require('./routers/authRouter.js');
 const bookingsRouter = require("./routers/bookingsRouter");
 const checkToken =require("./controllers/checkToken.js")
+const destinationRouter=require("./routers/destinationRouter.js")
+const contactRoutes = require('./routers/contactRoutes.js');
+const aboutRoutes = require('./routers/aboutRouter.js');
+const homeRoutes = require('./routers/homeRouter.js');
 
+app.use(express.json());
 const PORT = process.env.PORT || 5000;
 const corsOptions = {
   origin: '*', 
@@ -27,6 +32,10 @@ app.use(bodyParser.json());
 app.use("/",checkToken)
 app.use('/auth', authRoutes);
 app.use("/bookings", bookingsRouter);
+app.use("/getdestination", destinationRouter);
+app.use("/contactcards", contactRoutes);
+app.use("/aboutdata", aboutRoutes);
+app.use("/homedata", homeRoutes);
 
 const pool = mysql.createPool({
   host: "localhost",
